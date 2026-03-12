@@ -12,8 +12,8 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   
   // TODO: Replace with your actual Supabase credentials
-  const supabaseUrl = 'https://rsokegrvjfrqklascvsf.supabase.co';
-  const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJzb2tlZ3J2amZycWtsYXNjdnNmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMxMjIyMDksImV4cCI6MjA4ODY5ODIwOX0.Njn4HJdSVW9z_rSdEQrRSm4frz13ak4Ifur__1GMnb0';
+  const supabaseUrl = 'https://your-project-id.supabase.co';
+  const supabaseAnonKey = 'your-anon-key-here';
   
   // Check if credentials are configured
   if (supabaseUrl == 'YOUR_SUPABASE_URL' || supabaseAnonKey == 'YOUR_SUPABASE_ANON_KEY') {
